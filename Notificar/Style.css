@@ -1,0 +1,10 @@
+.botão {
+    height: 45px;
+    width: 45px;
+    border: 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
