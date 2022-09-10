@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1;
+}
+
+body, html {
+    color: white;
+    background: linear-gradient(-45deg, #383702, #052330, #2e0202, #013014);
+    background-size: 800% 800%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.Fut-Invernada-Logo {
+    text-align: center;
+}
+
+.FundoPreto, h2 {
+    background-color: rgb(48, 44, 44);
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.Colunas {
+    width: fit-content;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.controle {
+    height: 35px;
+    background-color: #0f0f0f;
+    color: white;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.ControleAlfa {
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 878px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table thead {
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.table tbody tr {
+    height: 74px;
+    border-top: 1px solid white;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: rgb(63, 60, 60);
+}
